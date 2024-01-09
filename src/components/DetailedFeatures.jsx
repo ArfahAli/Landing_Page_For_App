@@ -18,7 +18,7 @@ const AppDesignFeatures = () => {
     <div className="bg-gray-100 text-gray-600 body-font">
       <div className="container mx-auto flex px-5 py-24 flex-col items-center">
         <h2 className="text-2xl font-extrabold text-gray-800 mb-5">App Features</h2>
-        <div className="w-24 h-1 bg-[#883d53] mb-12"></div>
+        <div className="w-32 h-2 bg-[#883d53] mb-12 mx-auto"></div>
 
         <div className="flex flex-wrap justify-center items-start">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
@@ -40,6 +40,11 @@ const AppDesignFeatures = () => {
             <Feature
               icon={<MdUpdate size="1.5em" />}
               title="Free Updates Forever"
+              description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores."
+            />
+            <Feature
+              icon={<MdSupport size="1.5em" />}
+              title="Online Support"
               description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores."
             />
             <Feature

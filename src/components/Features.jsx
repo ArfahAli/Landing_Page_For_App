@@ -51,6 +51,9 @@ const Features = () => {
   return (
     <div className='text-black py-10 bg-slate-100'>
       <div className='container mx-auto text-center'>
+      <div className="text-2xl font-extrabold text-gray-800 mb-5">Benefits</div>
+      <div className="w-32 h-2 bg-[#883d53] mb-12 mx-auto"></div>
+      
         <div ref={ref}>
           {/* <h2 className='text-4xl font-bold mb-6'>
             Features
