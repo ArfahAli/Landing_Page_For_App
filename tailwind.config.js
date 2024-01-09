@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         bgDark: '#090909',
         textLight: '#f5f5f5',
-        primary: '#702939',
+        primary: '#883D53',
         purpleLight: '#a454ff',
         purpleLighter: '#9f6ee8',
         instagramStart: '#fdf497',

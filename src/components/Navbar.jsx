@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import Logo from './Logo';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = ({ onProjectsClick, onCertificationsClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,16 +8,27 @@ const Navbar = ({ onProjectsClick, onCertificationsClick }) => {
   return (
     <nav className='flex justify-between items-centerd relative bg-[] py-2 '>
       <Logo font='font-logoArfah' text='Arfah' />
-      <div className='md:hidden'>
+      <div className='md:hidden pt-5 pr-2'>
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className='outline-none focus:outline-none'
         >
-          {/* {isMenuOpen ? (
-            <XIcon className='h-8 w-8 text-white transition duration-200 ease-in-out transform hover:rotate-180' />
+          {isMenuOpen ? (
+            <FaTimes
+              className='text-3xl text-primary
+                cursor-pointer
+                hover:text-[#883ddd]
+            
+                
+            '
+            />
           ) : (
-            <MenuIcon className='h-8 w-8 text-white transition duration-200 ease-in-out transform hover:rotate-180' />
-          )} */}
+            <FaBars
+              className='text-3xl text-[#883d53]
+                hover:text-[#883ddd]
+            '
+            />
+          )}
         </button>
       </div>
       <div
@@ -29,24 +40,27 @@ const Navbar = ({ onProjectsClick, onCertificationsClick }) => {
       >
         <button
           onClick={onProjectsClick}
-          className='text-black px-5 py-2 text-[1.15em] hover:text-white hover:shadow-xs hover:-translate-y-[0.09em]'
+          className='text-black px-5 py-2 text-[1.15em] hover:text-primary hover:shadow-xs transition duration-300 ease-in-out transform  
+          '
         >
           App
         </button>
         <button
           onClick={onCertificationsClick}
-          className='text-black px-5 py-2 text-[1.15em] hover:text-white hover:shadow-xs hover:-translate-y-[0.09em]'
+          className='text-black px-5 py-2 text-[1.15em] hover:text-primary hover:shadow-xs transition duration-300 ease-in-out transform 
+          '
         >
           Features
         </button>
-        {/* <button
+        <button
           onClick={onCertificationsClick}
-          className='text-black px-5 py-2 text-[1.15em] hover:text-gray-300 hover:shadow-xs hover:-translate-y-[0.09em]'
+          className='text-black px-5 py-2 text-[1.15em] hover:text-primary hover:shadow-xs transition duration-300 ease-in-out transform
+          '
         >
           Pricing
-        </button> */}
+        </button>
 
-        <button className='bg-[#883d53] text-white font-bold px-8 py-2 rounded-full transition duration-300 ease-in-out transform hover:bg-white hover:text-gray-900 hover:shadow-xl hover:-translate-y-1'>
+        <button className='bg-primary text-white font-bold px-8 py-2 rounded-full transition duration-300 ease-in-out transform hover:bg-white hover:text-gray-900 hover:shadow-xl hover:-translate-y-1'>
           Download
         </button>
       </div>
