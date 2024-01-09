@@ -23,7 +23,7 @@ const AppDesignFeatures = () => {
         <div className="flex flex-wrap justify-center items-start">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
             {/* Replace src with your image path */}
-            <img className="object-cover object-center rounded shadow-lg" alt="hero" src="phone-image.png" />
+            <img className=" rounded shadow-lg h-[680px] w-[400px]" alt="hero" src="phone-image.png" />
           </div>
 
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
