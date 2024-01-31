@@ -27,7 +27,7 @@ const Hero = () => {
               <span className='font-[600] text-[1.2rem]'>Google Play</span>
             </a>
             <a
-              href='https://apps.apple.com/app/idyourappid' // Replace with your App Store link
+              href='https://github.com/ArfahAli/Clean-Clothes-LaundaryApp' // Replace with your App Store link
               className='flex items-center bg-[#123] text-white px-9 py-3 rounded-lg hover:bg-gray-900 transition duration-300'
             >
               <FaGithub className='text-2xl md:text-3xl text-white mr-2' />
