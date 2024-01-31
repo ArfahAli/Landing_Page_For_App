@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdUpdate, MdColorLens, MdSupport, MdWeb } from 'react-icons/md';
+import { MdSchedule, MdFeedback, MdUpdate, MdBuild, MdDashboard, MdSecurity } from 'react-icons/md';
 
 const Feature = ({ icon, title, description }) => {
   return (
@@ -21,36 +21,42 @@ const AppDesignFeatures = () => {
         <div className="w-32 h-2 bg-[#883d53] mb-12 mx-auto"></div>
 
         <div className="flex flex-wrap justify-center items-start">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-            {/* Replace src with your image path */}
-            <img className=" rounded shadow-lg h-[680px] w-[400px]" alt="hero" src="phone-image.png" />
-          </div>
+        <div class="flex justify-center items-center md:w-1/2 w-full md:mb-0 mb-10">
+  <img class="w-full md:w-[25rem] h-auto relative z-10" alt="hero" src="screen_4.png" />
+</div>
+
 
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+           
             <Feature
-              icon={<MdWeb size="1.5em" />}
-              title="Responsive Web Design"
-              description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores."
+              icon={<MdSchedule size="1.5em" />}
+              title="Smart Scheduling"
+              description="Effortlessly plan your laundry with our scheduling system. This feature allows users to set up laundry services based on their preferences, ensuring convenience and efficient time management."
             />
             <Feature
-              icon={<MdColorLens size="1.5em" />}
-              title="Infinite Color"
-              description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores."
+              icon={<MdFeedback size="1.5em" />}
+              title="Seamless Feedback Loop"
+              description="Facilitate effective communication between users and laundry services by streamlining the feedback process on both the User and Admin Boards."
             />
             <Feature
               icon={<MdUpdate size="1.5em" />}
-              title="Free Updates Forever"
-              description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores."
+              title="Instant Order Updates"
+              description="Users stay informed with instant updates on the status of their laundry orders, enhancing transparency and reducing uncertainty"
             />
             <Feature
-              icon={<MdSupport size="1.5em" />}
-              title="Online Support"
-              description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores."
+              icon={<MdBuild size="1.5em" />}
+              title="Effortless Service Management"
+              description="Simplify service administration with a user-friendly interface on the Admin Board, enabling easy addition, editing, and deletion of laundry services."
             />
-            <Feature
-              icon={<MdSupport size="1.5em" />}
-              title="Online Support"
-              description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores."
+             <Feature
+              icon={<MdDashboard size="1.5em" />}
+              title="Centralized Order Tracking Dashboard"
+              description="Gain operational control with a centralized dashboard on the Admin Board, providing real-time insights into customer orders and statuses."
+            />
+              <Feature
+              icon={<MdSecurity size="1.5em" />}
+              title="Proactive User Account Monitoring"
+              description="Ensure security and compliance by actively monitoring user accounts on the Admin Board, promptly addressing any irregularities or suspicious activities."
             />
           </div>
         </div>

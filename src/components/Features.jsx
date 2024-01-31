@@ -24,26 +24,26 @@ const Features = () => {
     {
       icon: FaStopwatch,
       label: 'Save Time',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      description: '     Optimize your schedule with our swift laundry solutions, ensuring your time is spent on what matters most.',
       color: '#f44336',
     },
     {
       icon: FaGrin,
       label: 'Quality Work',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      description: "Experience a new level of cleanliness with our app's commitment to delivering laundry services of unmatched quality.",
       color: '#4caf50',
     },
     {
       icon: SiAdobeaudition,
       label: 'Convenient ',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      description: "Our app is designed for your ease – laundry made convenient, seamless, and effortlessly integrated into your busy lifestyle.",
       color: '#131314',
     },
 
     {
       icon: FaShirtsinbulk,
       label: 'Affordable',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      description: "Access top-tier laundry services at budget-friendly rates through our app, making cleanliness an affordable and essential part of your routine.",
       color: '#131314',
     },
   ];

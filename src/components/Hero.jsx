@@ -41,8 +41,8 @@ const Hero = () => {
           <div className='relative w-full max-w-md mx-auto md:mx-0'>
             {/* Mockup phone image */}
             <img
-              className='w-64 md:w-[20rem] h-auto relative z-10'
-              src='/App.png' // Replace with your mockup phone image path
+              className='w-64 md:w-[25rem] h-auto relative z-10'
+              src='/screen_1.png' // Replace with your mockup phone image path
               alt='Phone Mockup'
             />
             {/* Colored circle behind the phone */}
