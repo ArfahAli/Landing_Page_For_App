@@ -4,20 +4,20 @@ import FAQItem from './FaqsItem';
 const FAQSection = () => {
   const faqs = [
     {
-      question: 'How do I start a business?',
-      answer: 'Starting a business involves planning, making key financial decisions, and completing a series of legal activities.'
+      question: 'What services does the app offer??',
+      answer: 'Our app provides a range of laundry services including washing, dry cleaning, ironing, and express delivery options.'
     },
     {
-      question: 'How can I improve my business cash flow?',
-      answer: 'Improving cash flow can be achieved by managing your inventory more efficiently, reducing expenses, and improving accounts receivable.'
+      question: 'How do I schedule a laundry pickup?',
+      answer: 'ISimply select your preferred pickup time and location in the app, and team will take care of the rest.'
     },
     {
-      question: 'What are the key components of a business plan?',
-      answer: 'A business plan should include an executive summary, company description, market analysis, organization and management structure, sales strategies, funding requests, and financial projections.'
+      question: 'Is there a minimum order value for using the app?',
+      answer: 'No, there is no minimum order value, but orders above a certain amount qualify for free delivery.'
     },
     {
-      question: 'How can I market my business online?',
-      answer: 'Marketing your business online can be done through various channels like social media, search engine optimization, email marketing, and more.'
+      question: 'How can I track my laundry order?',
+      answer: ' Once your laundry is picked up, you can track its status in real-time through the app until delivery.'
     }
   ];
 
